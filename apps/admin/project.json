@@ -1,7 +1,7 @@
 {
-  "name": "nx-nest-monorepo-example",
+  "name": "admin",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/nx-nest-monorepo-example/src",
+  "sourceRoot": "apps/admin/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -23,15 +23,15 @@
       "defaultConfiguration": "development",
       "dependsOn": ["build"],
       "options": {
-        "buildTarget": "nx-nest-monorepo-example:build",
+        "buildTarget": "admin:build",
         "runBuildTargetDependencies": false
       },
       "configurations": {
         "development": {
-          "buildTarget": "nx-nest-monorepo-example:build:development"
+          "buildTarget": "admin:build:development"
         },
         "production": {
-          "buildTarget": "nx-nest-monorepo-example:build:production"
+          "buildTarget": "admin:build:production"
         }
       }
     },

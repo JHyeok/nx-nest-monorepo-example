@@ -1,10 +1,10 @@
 export default {
-  displayName: 'nx-nest-monorepo-example',
+  displayName: 'my-nest-lib',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/nx-nest-monorepo-example',
+  coverageDirectory: '../../coverage/libs/my-nest-lib',
 };

@@ -37,7 +37,10 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/nx-nest-monorepo-example-e2e/**/*"]
+      "exclude": [
+        "apps/my-nest-app-e2e/**/*",
+        "apps/admin-e2e/**/*"
+      ]
     }
   ]
 }
